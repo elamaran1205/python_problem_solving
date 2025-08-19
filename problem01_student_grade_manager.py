@@ -1,3 +1,15 @@
+# student Grade Manager(Command line tool)
+# in command line -py problem01_student_grade_manager.py --data james 56 bala 91 hari 45 swamy 36
+# output :
+    # Highest scorer: bala,Mark - 91
+    # Average score of students: 57.0
+
+    # All students Marks:
+    # james      - 56
+    # bala       - 91
+    # hari       - 45
+    # swamy      - 36
+
 import argparse
 
 students = {}
@@ -7,7 +19,7 @@ cla_argument = parser.parse_args()
 
 students = {cla_argument.data[i]:int(cla_argument.data[i+1]) for i in range(0,len(cla_argument.data),2)}
 
-print(students)
+# print(students)
 
 topper = max(students,key=students.get)
 top_mark = max(students.values())
