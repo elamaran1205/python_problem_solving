@@ -1,0 +1,19 @@
+Find largest element in a list.
+
+Find second largest element.
+
+Find smallest element.
+
+Remove duplicates from a list.
+
+Count the frequency of elements.
+
+Reverse a list (without [::-1]).
+
+Check if a list is palindrome.
+
+Sort list without using .sort() (write Bubble/Selection).
+
+Merge two sorted lists.
+
+Find the missing number in a sequence.
